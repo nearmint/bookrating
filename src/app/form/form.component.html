@@ -1,0 +1,12 @@
+<button (click)="showForm()">New Book</button>
+
+<form style="display:none;">
+
+  <label>Title:</label>
+  <input type="text" placeholder="Title" [(ngModel)]=""><br/><br/>
+  <input type="text" placeholder="Author"><br/><br/>
+  <input type="text" placehodler="Image URL">
+
+</form> 
+
+<button type="button" value="Add" (click)="addBook()">Submit</button>
